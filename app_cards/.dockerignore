@@ -1,0 +1,4 @@
+# .dockerignore file
+# ignorar arquivos .txt no diretório atual
+#*.txt
+
