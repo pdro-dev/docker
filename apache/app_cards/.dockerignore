@@ -1,0 +1,13 @@
+# .dockerignore file
+
+# ignorar arquivos .txt no diretório atual
+#*.txt
+
+# ignorar arquivos .txt no subdiretório
+*/*.txt
+
+# ignorar arquivos docker do subdiretório
+*/Dockerfile
+# ignorar arquivo .dockerignore do subdiretório
+*/.dockerignore
+

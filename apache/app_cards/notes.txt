@@ -1,0 +1,12 @@
+
+# Comandos realizados para o build and tests
+# root@pedro-virtual-machine:/home/pedro/Documentos/docker/html_simples#
+
+
+docker build -t pssctd/dh-ctd-infra01:cp01_nginx_apprecipes .
+
+docker run -d -p 8082:80 pssctd/dh-ctd-infra01:cp01_nginx_apprecipes
+
+docker push pssctd/dh-ctd-infra01:cp01_nginx_apprecipes
+
+docker pull pssctd/dh-ctd-infra01:cp01_nginx_apprecipes
