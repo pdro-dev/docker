@@ -1,6 +1,6 @@
 
 # Comandos realizados para o build and tests
-# root@pedro-virtual-machine:/home/pedro/Documentos/docker/html_simples#
+# root@pedro-virtual-machine:/home/pedro/Documentos/docker/app_cards#
 
 
 docker build -t pssctd/dh-ctd-infra01:cp01_nginx_apprecipes .
